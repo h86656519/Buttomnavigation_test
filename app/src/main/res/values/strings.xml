@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Buttomnavigation_test</string>
+    <string name="AINA">AINA</string>
+    <string name="ExclusivelySold">獨家</string>
+    <string name="Verfity">驗證</string>
+
+    <string name="VerfityDescription">將商品靠近手機，即可自動感應</string>
+    <string name="Message">消息</string>
+    <string name="my">我的</string>
+    <string name="search_menu">搜尋</string>
+    <string name="nav_open_drewer">open navigation drawer</string>
+    <string name="nav_close_drewer">close navigation drawer</string>
+    <string name="vertifyproduct">驗證商品</string>
+    <string name="entertop">進入首頁</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="common_response_9999">連線發生錯誤，請重新在試</string>
+    <string name="common_response_1000">回覆資訊處理失敗，請重新在試</string>
+    <string name="common_response_1002">儲存資訊讀取失敗，請重新在試</string>
+    <string name="common_response_1003">儲存檔案發生失敗，請重新在試</string>
+    <string name="common_response_1004">儲存檔案發生失敗，儲存空間不足</string>
+    <string name="common_response_9998">無網路連線，請檢查連線設定</string>
+    <string name="msg_default_status">將條碼放置于鏡頭範圍內進行掃描。  </string>
+    <string name="common_button_add">新增</string>
+    <string name="common_button_confirm">確定</string>
+    <string name="common_button_back">返回</string>
+    <string name="common_button_prePage">上一頁</string>
+    <string name="common_button_save">儲存</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_use">使用說明</string>
+    <string name="common_button_forget">忘記密碼</string>
+    <string name="common_button_login">登入</string>
+    <string name="common_button_logout">登出</string>
+    <string name="common_button_setup">設定</string>
+    <string name="common_button_shopCart">購物車</string>
+    <string name="common_button_shortList">快速選單</string>
+    <string name="common_button_category">目錄</string>
+    <string name="common_button_register">註冊新帳號</string>
+    <string name="common_input_error">尚未輸入所有*號項目</string>
+    <string name="common_input_errorDesc">尚未輸入</string>
+    <string name="business_action_submit">送出</string>
+    <string name="business_verify_message1">維骨力只有一種，買對才有效</string>
+    <string name="business_verify_message2">恭喜！本產品確認為-原廠維骨力膠囊/粉劑真品，感謝您的購買，並請安心使用！</string>
+    <string name="business_verify_message3">警告！本產品無法通過晶片防偽辨識系統，請您切勿使用！</string>
+    <string name="business_verify_message4">本產品確認為-原廠</string>
+    <string name="business_verify_message5">真品，感謝您的購買，並請安心使用！</string>
+    <string name="business_verify_message6">本產品</string>
+    <string name="business_verify_message7">無法通過</string>
+    <string name="business_verify_message8">晶片防偽辨識系統，請您切勿使用！</string>
+    <string name="business_product_message">維骨力膠囊/粉劑</string>
+    <string name="business_action_delete">刪除</string>
+    <string name="register_action_submit">註冊</string>
+    <string name="webconnect_error">網頁載入失敗，請檢查連線設定</string>
+    <string name="business_common_dataTitle">處理進度</string>
+    <string name="business_common_verify">產品驗證</string>
+    <string name="business_common_productInfo">產品介紹</string>
+    <string name="business_common_productUse">產品使用</string>
+    <string name="business_common_verifyResult">驗證結果</string>
+    <string name="business_common_dataProcess">資料處理中........請稍候</string>
+    <string name="business_common_dataDownLoad">資料下載中........請稍候</string>
+    <string name="business_common_webLoading">網頁載入中........請稍候</string>
+    <string name="business_common_error">錯誤</string>
+    <string name="business_common_message">訊息</string>
+    <string name="business_nfc_disable">尚未開啟NFC無法進行驗證，請前往設定啟用NFC</string>
+    <string name="business_common_morePage">瀏覽更多資料</string>
+    <string name="business_message_verifySuccess">驗證成功</string>
+    <string name="business_use_message1">維骨力建議服用法:</string>
+    <string name="business_use_message2">維骨力膠囊(Viartril-S Capsules 500粒/180粒/80粒裝)</string>
+    <string name="business_use_message3">治療劑量:每次2粒膠囊，三餐飯前約15分鐘以水吞服。</string>
+    <string name="business_use_product1">膠囊</string>
+    <string name="business_use_product2">粉劑</string>
+
+
+    <string name="yes">確定</string>
+    <string name="no">取消</string>
+    <string name="main_notify_message">將手機接近包裝瓶口驗證是否為正廠維骨力商品</string>
+    <string name="label_name_verifyProduct">維骨力-防偽驗證</string>
+    <string name="business_action_mobileWeb">行動首頁</string>
+</resources>

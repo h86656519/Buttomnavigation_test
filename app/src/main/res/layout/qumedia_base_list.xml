@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ ===========================================================================
+  ~ QuMedia Confidential
+  ~
+  ~ (C) Copyright QuMedia Corp. 2010
+  ~ ===========================================================================
+  -->
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/mainLinearLayout"
+        android:background="#ffffff"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:id="@+id/mainTitle"
+            android:background="#ff6600"
+            >
+
+          <TextView
+          		android:text="@string/app_name"
+                android:id="@+id/str_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dip"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                >
+        </TextView>
+
+    </RelativeLayout>
+
+    <ListView android:id="@+id/commonList"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.0"/>
+
+</LinearLayout>

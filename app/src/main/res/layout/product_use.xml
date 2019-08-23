@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ * ===========================================================================
+  ~  * QuMedia Confidential
+  ~  *
+  ~  * (C) Copyright QuMedia Corp. 2014.
+  ~  * ===========================================================================
+  -->
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLinearLayout"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        >
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:id="@+id/mainTitle"
+            android:background="#ff6600"
+            >
+
+        <TextView
+                android:id="@+id/btnBack"
+                android:text="@string/common_button_back"
+                android:background="@drawable/customer_button"
+                android:layout_width="50dip"
+                android:layout_height="35dip"
+                android:textSize="@dimen/buttonTextSize"
+                android:padding="0dip"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                >
+        </TextView>
+
+        <TextView
+                android:id="@+id/str_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/business_common_productUse"
+                android:textSize="@dimen/titleTextSize"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                >
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/header2_bg"
+            android:layout_marginTop="2dip"
+            >
+
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dip"
+                      android:layout_marginBottom="5dip"
+                      android:layout_centerInParent="true"
+                >
+
+            <TextView
+                    android:id="@+id/btnProduct1"
+                    android:text="@string/business_use_product1"
+                    android:background="@drawable/blue_pre_select_button"
+                    android:layout_width="@dimen/title6TextButtonW"
+                    android:layout_height="@dimen/titleButtonH"
+                    android:textSize="@dimen/titleButtonTextSize"
+                    android:padding="0dip"
+                    android:layout_margin="0dip"
+                    android:textColor="@color/buttonTextColor"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    >
+            </TextView>
+
+            <TextView
+                    android:id="@+id/btnProduct2"
+                    android:text="@string/business_use_product2"
+                    android:background="@drawable/blue_after_select_button"
+                    android:layout_width="@dimen/title6TextButtonW"
+                    android:layout_height="@dimen/titleButtonH"
+                    android:textSize="@dimen/titleButtonTextSize"
+                    android:padding="0dip"
+                    android:textColor="@color/buttonTextColor"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_margin="0dip"
+                    android:layout_gravity="center_vertical"
+                    >
+            </TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+            android:id="@+id/ScrollViewId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/formPadding"
+                android:paddingRight="@dimen/formPadding"
+                android:paddingTop="10dip"
+                >
+
+            <LinearLayout
+                    android:id="@+id/layout_product1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingTop="5dip"
+                        android:paddingBottom="5dip"
+                        android:textColor="@color/text_highlight_color"
+                        android:text="@string/business_use_message2"
+                        android:textSize="@dimen/showTitleSize"
+                        >
+                </TextView>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="@string/business_use_message3"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="5dip"
+                        >
+                </TextView>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="保養劑量:每次1粒膠囊，三餐飯前約15分鐘以水吞服。"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="5dip"
+                        >
+                </TextView>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="使用方法:以適量開水吞服。"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="5dip"
+                        >
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/layout_product2"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingTop="5dip"
+                        android:paddingBottom="5dip"
+                        android:textColor="@color/text_highlight_color"
+                        android:text="維骨力口服溶液用粉劑(Viartril-S Powder 30包/盒裝)"
+                        android:textSize="@dimen/showTitleSize"
+                        >
+                </TextView>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="治療劑量:每天一包(溶於一杯水100c.c.)，與餐併服較佳。"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="5dip"
+                        >
+                </TextView>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="保養劑量:兩天一包(溶於一杯水100c.c.)，與餐併服較佳。"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="5dip"
+                        >
+                </TextView>
+
+                <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="使用方法:"
+                        android:textSize="@dimen/showTextSize"
+                        android:paddingBottom="2dip"
+                        >
+                </TextView>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dip"
+                        android:layout_gravity="center"
+                        android:src="@drawable/product_use1"
+                        android:scaleType="fitCenter"
+                        >
+                </ImageView>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dip"
+                        android:layout_gravity="center"
+                        android:src="@drawable/product_use2"
+                        android:scaleType="fitCenter"
+                        >
+                </ImageView>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dip"
+                        android:layout_gravity="center"
+                        android:src="@drawable/product_use3"
+                        android:scaleType="fitCenter"
+                        >
+                </ImageView>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dip"
+                        android:layout_gravity="center"
+                        android:src="@drawable/product_use4"
+                        android:scaleType="fitCenter"
+                        >
+                </ImageView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

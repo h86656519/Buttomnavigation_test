@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/btn_pre_blue_pressed" android:state_selected="true" />
+	<item android:drawable="@drawable/btn_pre_blue_normal" android:state_selected="false" />
+</selector>

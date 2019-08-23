@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ * ===========================================================================
+  ~  * QuMedia Confidential
+  ~  *
+  ~  * (C) Copyright QuMedia Corp. 2014.
+  ~  * ===========================================================================
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mainTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#ff6600" >
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="50dip"
+            android:layout_height="35dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/customer_button"
+            android:gravity="center"
+            android:padding="0dip"
+            android:text="@string/common_button_back"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/buttonTextSize"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/str_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/business_common_verifyResult"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/titleTextSize" >
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollViewId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/formPadding"
+            android:paddingRight="@dimen/formPadding" >
+
+            <ImageView
+                android:id="@+id/verifyImage"
+                android:layout_width="250dip"
+                android:layout_height="200dip"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="200dip"
+                android:maxWidth="250dip"
+                android:src="@drawable/success_icon" >
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ * ===========================================================================
+  ~  * QuMedia Confidential
+  ~  *
+  ~  * (C) Copyright QuMedia Corp. 2014.
+  ~  * ===========================================================================
+  -->
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLinearLayout"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        >
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:id="@+id/mainTitle"
+            android:background="#ff6600"
+            >
+
+        <TextView
+                android:id="@+id/btnBack"
+                android:text="@string/common_button_back"
+                android:background="@drawable/customer_button"
+                android:layout_width="50dip"
+                android:layout_height="35dip"
+                android:textSize="@dimen/buttonTextSize"
+                android:padding="0dip"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                >
+        </TextView>
+
+        <TextView
+                android:id="@+id/str_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/business_common_productInfo"
+                android:textSize="@dimen/titleTextSize"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                >
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+            android:id="@+id/ScrollViewId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/formPadding"
+                android:paddingRight="@dimen/formPadding"
+                android:paddingTop="10dip"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingBottom="5dip"
+                    android:textColor="#000000"
+                    android:text="維骨力(Viartril-S)介紹"
+                    android:textSize="@dimen/showTitleSize"
+                    >
+            </TextView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:textColor="@color/text_highlight_color"
+                    android:text="維骨力膠囊(Viartril-S Capsules 500粒/180粒/80粒裝)"
+                    android:textSize="@dimen/showTitleSize"
+                    >
+            </TextView>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon1"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon1"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="義大利羅達大藥廠(Rottapharm Ltd.)原廠研發製造，具有結晶鹽專利製程技術。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon1"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon2"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon1"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="唯一一個經150個臨床前及臨床試驗研究，證實能有效解除退化性關節炎發炎與疼痛症狀，並能延緩關節退化。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon2"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon3"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon1"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="藥品級｢硫酸鹽葡萄糖胺｣製劑，亦是目前衛生福利部核准治療退化性關節炎的藥品。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon3"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon4"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon1"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="醫學中心:台大、榮總、長庚醫院及署/市立醫院皆在使用。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon4"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:textColor="@color/text_highlight_color"
+                    android:text="維骨力口服溶液用粉劑(Viartril-S Powder 30包/盒裝)"
+                    android:textSize="@dimen/showTitleSize"
+                    >
+            </TextView>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon11"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon2"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="義大利羅達大藥廠(Rottapharm Ltd.)原廠研發製造，具有結晶鹽專利製程技術。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon11"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon21"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon2"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="能有效解除退化性關節疼痛與發炎狀況，延緩關節退化程度，是退化性關節炎首選治療劑。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon21"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon31"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon2"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="每日一包、劑量足、效果好、使用方便、遵醫囑性強。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon31"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:paddingBottom="5dip">
+
+                <TextView
+                        android:id="@+id/icon41"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_gravity="left"
+                        android:background="@drawable/text_icon2"
+                        >
+                </TextView>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/text_normal_color"
+                        android:text="提供不方便吞食膠囊病患另一選擇的新劑型。"
+                        android:textSize="@dimen/showTextSize"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/icon41"
+                        >
+                </TextView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
